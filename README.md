@@ -9,5 +9,5 @@ In order to build you'll need to build adium and add the frameworks to the proje
 
 http://trac.adium.im/wiki/CreatingPlugins
 
-
-
+You can download the built plugin here:
+https://github.com/silverma/ToggleProxiesPlugin/downloads
