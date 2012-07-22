@@ -9,3 +9,5 @@
 *.pbxuser
 *.perspectivev3
 *.xcworkspace
+/AIUtilities.framework
+/Adium.framework
