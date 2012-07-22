@@ -11,3 +11,5 @@ http://trac.adium.im/wiki/CreatingPlugins
 
 You can download the built plugin here:
 https://github.com/silverma/ToggleProxiesPlugin/downloads
+
+Once installed, the Toggle Proxies menu will show up near the bottom of the file menu.
