@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41BCA9914DFC05100E8636D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BCA9814DFC05100E8636D /* Cocoa.framework */; };
+		D41BCAA314DFC05100E8636D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D41BCAA114DFC05100E8636D /* InfoPlist.strings */; };
+		D41BCAAB14DFC1DE00E8636D /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BCAAA14DFC1DE00E8636D /* Adium.framework */; };
+		D41BCAAE14DFC23600E8636D /* ToggleProxiesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D41BCAAD14DFC23600E8636D /* ToggleProxiesPlugin.m */; };
+		D41BCAB014DFC6A200E8636D /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BCAAF14DFC6A200E8636D /* AIUtilities.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D41BCA9514DFC05100E8636D /* ToggleProxiesPlugin.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToggleProxiesPlugin.AdiumPlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41BCA9814DFC05100E8636D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D41BCA9B14DFC05100E8636D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D41BCA9C14DFC05100E8636D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D41BCA9D14DFC05100E8636D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D41BCAA014DFC05100E8636D /* ToggleProxiesPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToggleProxiesPlugin-Info.plist"; sourceTree = "<group>"; };
+		D41BCAA214DFC05100E8636D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D41BCAA414DFC05100E8636D /* ToggleProxiesPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToggleProxiesPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		D41BCAAA14DFC1DE00E8636D /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
+		D41BCAAC14DFC23600E8636D /* ToggleProxiesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToggleProxiesPlugin.h; sourceTree = "<group>"; };
+		D41BCAAD14DFC23600E8636D /* ToggleProxiesPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToggleProxiesPlugin.m; sourceTree = "<group>"; };
+		D41BCAAF14DFC6A200E8636D /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41BCA9214DFC05100E8636D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41BCA9914DFC05100E8636D /* Cocoa.framework in Frameworks */,
+				D41BCAAB14DFC1DE00E8636D /* Adium.framework in Frameworks */,
+				D41BCAB014DFC6A200E8636D /* AIUtilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41BCA8A14DFC05000E8636D = {
+			isa = PBXGroup;
+			children = (
+				D41BCA9E14DFC05100E8636D /* ToggleProxiesPlugin */,
+				D41BCA9714DFC05100E8636D /* Frameworks */,
+				D41BCA9614DFC05100E8636D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D41BCA9614DFC05100E8636D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41BCA9514DFC05100E8636D /* ToggleProxiesPlugin.AdiumPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41BCA9714DFC05100E8636D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41BCA9814DFC05100E8636D /* Cocoa.framework */,
+				D41BCA9A14DFC05100E8636D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D41BCA9A14DFC05100E8636D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41BCAAF14DFC6A200E8636D /* AIUtilities.framework */,
+				D41BCAAA14DFC1DE00E8636D /* Adium.framework */,
+				D41BCA9B14DFC05100E8636D /* AppKit.framework */,
+				D41BCA9C14DFC05100E8636D /* CoreData.framework */,
+				D41BCA9D14DFC05100E8636D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D41BCA9E14DFC05100E8636D /* ToggleProxiesPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D41BCA9F14DFC05100E8636D /* Supporting Files */,
+				D41BCAAC14DFC23600E8636D /* ToggleProxiesPlugin.h */,
+				D41BCAAD14DFC23600E8636D /* ToggleProxiesPlugin.m */,
+			);
+			path = ToggleProxiesPlugin;
+			sourceTree = "<group>";
+		};
+		D41BCA9F14DFC05100E8636D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41BCAA014DFC05100E8636D /* ToggleProxiesPlugin-Info.plist */,
+				D41BCAA114DFC05100E8636D /* InfoPlist.strings */,
+				D41BCAA414DFC05100E8636D /* ToggleProxiesPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41BCA9414DFC05100E8636D /* ToggleProxiesPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41BCAA714DFC05100E8636D /* Build configuration list for PBXNativeTarget "ToggleProxiesPlugin" */;
+			buildPhases = (
+				D41BCA9114DFC05100E8636D /* Sources */,
+				D41BCA9214DFC05100E8636D /* Frameworks */,
+				D41BCA9314DFC05100E8636D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToggleProxiesPlugin;
+			productName = ToggleProxiesPlugin;
+			productReference = D41BCA9514DFC05100E8636D /* ToggleProxiesPlugin.AdiumPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41BCA8C14DFC05000E8636D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D41BCA8F14DFC05000E8636D /* Build configuration list for PBXProject "ToggleProxiesPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D41BCA8A14DFC05000E8636D;
+			productRefGroup = D41BCA9614DFC05100E8636D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41BCA9414DFC05100E8636D /* ToggleProxiesPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41BCA9314DFC05100E8636D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41BCAA314DFC05100E8636D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41BCA9114DFC05100E8636D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41BCAAE14DFC23600E8636D /* ToggleProxiesPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D41BCAA114DFC05100E8636D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41BCAA214DFC05100E8636D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41BCAA514DFC05100E8636D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D41BCAA614DFC05100E8636D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D41BCAA814DFC05100E8636D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToggleProxiesPlugin/ToggleProxiesPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ToggleProxiesPlugin/ToggleProxiesPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Debug;
+		};
+		D41BCAA914DFC05100E8636D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToggleProxiesPlugin/ToggleProxiesPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ToggleProxiesPlugin/ToggleProxiesPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41BCA8F14DFC05000E8636D /* Build configuration list for PBXProject "ToggleProxiesPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41BCAA514DFC05100E8636D /* Debug */,
+				D41BCAA614DFC05100E8636D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41BCAA714DFC05100E8636D /* Build configuration list for PBXNativeTarget "ToggleProxiesPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41BCAA814DFC05100E8636D /* Debug */,
+				D41BCAA914DFC05100E8636D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41BCA8C14DFC05000E8636D /* Project object */;
+}
